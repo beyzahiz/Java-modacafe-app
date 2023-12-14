@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baslik_moru">#9C27B0</color>
+    <color name="baslik_moru_arkaplan">#E8BAEF</color>
+    <color name="kullanici_yazisi">@color/black</color>
+    <color name="ky_arkaplan">@color/white</color>
+    <color name="arkaplan">@color/white</color>
+
+
+</resources>
