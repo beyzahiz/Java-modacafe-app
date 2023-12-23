@@ -13,6 +13,42 @@
         android:theme="@style/Theme.Modacafe"
         tools:targetApi="31">
         <activity
+            android:name=".login2"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler.anayemek"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler.pizza"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler.makarna"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler.burger"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler.salata"
+            android:exported="false" />
+        <activity
+            android:name=".yemekler.baslangic"
+            android:exported="false" />
+        <activity
+            android:name=".baslangic"
+            android:exported="false" />
+        <activity
+            android:name=".subeler"
+            android:exported="false" />
+        <activity
+            android:name=".mvizyon"
+            android:exported="false" />
+        <activity
+            android:name=".iletisim"
+            android:exported="false" />
+        <activity
+            android:name=".login.mvizyon"
+            android:exported="false" />
+        <activity
             android:name=".tatli"
             android:exported="false" />
         <activity

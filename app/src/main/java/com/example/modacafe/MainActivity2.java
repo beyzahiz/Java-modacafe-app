@@ -15,6 +15,9 @@ public class MainActivity2 extends AppCompatActivity {
     Button yemek;
     Button tatli;
 
+    Button geri1;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +28,14 @@ public class MainActivity2 extends AppCompatActivity {
         soguk = findViewById(R.id.soguk);
         yemek = findViewById(R.id.yemek);
         tatli = findViewById(R.id.tatli);
+        geri1 = findViewById(R.id.geri10);
+
 
         ana_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent anamenuyedon = new Intent(MainActivity2.this, MainActivity.class);
-                finish();
                 startActivity(anamenuyedon);
+                finish();
             }
         });
 
@@ -38,8 +43,8 @@ public class MainActivity2 extends AppCompatActivity {
         sicak.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent ikincibuttonIntent = new Intent(MainActivity2.this, MainActivity3.class);
-                finish();
                 startActivity(ikincibuttonIntent);
+                finish();
             }
         });
 
@@ -47,18 +52,18 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Add the code to navigate to the third page (MainActivity3)
-                Intent sogugagec = new Intent(MainActivity2.this, MainActivity3.class);
-                finish();
+                Intent sogugagec = new Intent(MainActivity2.this, soguk.class);
                 startActivity(sogugagec);
+                finish();
             }
         });
 
         yemek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent yemegegec = new Intent(MainActivity2.this, yemek.class);
-                finish();
+                Intent yemegegec = new Intent(MainActivity2.this, com.example.modacafe.yemek.class);
                 startActivity(yemegegec);
+                finish();
             }
         });
 
@@ -66,9 +71,21 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent tatliyagec = new Intent(MainActivity2.this, tatli.class);
-                finish();
                 startActivity(tatliyagec);
+                finish();
             }
         });
+
+        geri1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bironceyegec = new Intent(MainActivity2.this, MainActivity.class);
+                startActivity(bironceyegec);
+                finish();
+            }
+        });
+
+
+
     }
 }

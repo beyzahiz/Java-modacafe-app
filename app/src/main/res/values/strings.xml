@@ -5,10 +5,10 @@
     <string name="hakkimizda">HAKKIMIZDA</string>
     <string name="ana_menu">ANA MENU</string>
     <string name="title_activity_scrolling">Scrolling Activity</string>
-    <string name="sicak_icecekler">Sıcak İçecekler</string>
-    <string name="soguk_icecekler">Soğuk İçecekler</string>
+    <string name="sicak_icecekler">Sıcak Içecekler</string>
+    <string name="soguk_icecekler">Soguk Icecekler</string>
     <string name="yemekler">Yemekler</string>
-    <string name="tatlilar">Tatlılar</string>
+    <string name="tatlilar">Tatlilar</string>
     <string name="title_activity_main3">Main Activity 3</string>
     <string name="first_fragment_label">İlk Fragment Etiketi</string>
     <string name="second_fragment_label">İkinci Fragment Etiketi</string>

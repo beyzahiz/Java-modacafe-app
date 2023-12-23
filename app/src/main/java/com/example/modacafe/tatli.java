@@ -16,11 +16,21 @@ public class tatli extends AppCompatActivity {
         setContentView(R.layout.activity_yemek);
         Button ana_button5;
         ana_button5 = findViewById(R.id.ana_button6);
+        Button geri2;
+        geri2 = findViewById(R.id.geri10);
         ana_button5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent anamenuyedon = new Intent(tatli.this, MainActivity.class);
                 finish();
                 startActivity(anamenuyedon);
+            }
+        });
+
+      geri2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent bironceyedon = new Intent(tatli.this, MainActivity2.class);
+                finish();
+                startActivity(bironceyedon);
             }
         });
     }

@@ -11,83 +11,132 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="142dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/baslik_moru_arkaplan"
+        android:layout_width="230dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/sunshines"
         android:gravity="top|center"
-        android:text="@string/menu"
+        android:text="MENÜ"
         android:textColor="@color/baslik_moru"
-        android:textSize="40sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-
-        android:id="@+id/ana_button"
-        android:layout_width="160dp"
-        android:layout_height="93dp"
-        android:layout_marginBottom="6dp"
-        android:gravity="center"
-        android:padding="30dp"
-        android:text="@string/ana_menu"
-        android:textSize="15sp"
+        android:textSize="70sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.048" />
 
     <Button
 
         android:id="@+id/sicak"
-        android:layout_width="232dp"
+        android:layout_width="176dp"
         android:layout_height="70dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/baslik_moru"
         android:text="@string/sicak_icecekler"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
 
     <Button
         android:id="@+id/soguk"
-        android:layout_width="231dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="256dp"
+        android:layout_width="176dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/baslik_moru"
         android:text="@string/soguk_icecekler"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518" />
 
     <Button
         android:id="@+id/yemek"
-        android:layout_width="221dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="344dp"
+        android:layout_width="176dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/baslik_moru"
         android:text="@string/yemekler"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
 
     <Button
         android:id="@+id/tatli"
-        android:layout_width="225dp"
-        android:layout_height="68dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="424dp"
+        android:layout_width="176dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/baslik_moru"
         android:text="@string/tatlilar"
-        android:textSize="15sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <Button
+        android:id="@+id/ana_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="ANA SAYFA"
+        android:textColor="#140C0C"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+
+    <Button
+        android:id="@+id/geri10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="@color/white"
+        android:text="GERİ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView3"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="39dp"
+
+        android:layout_marginBottom="43dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/yemek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/logo"></com.google.android.material.imageview.ShapeableImageView>
+
+
+    />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

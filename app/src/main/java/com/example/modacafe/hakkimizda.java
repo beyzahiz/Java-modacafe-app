@@ -9,12 +9,15 @@ import android.widget.Button;
 
 public class hakkimizda extends AppCompatActivity {
 
+    Button ana_button2;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_hakkimizda);
 
-        Button ana_button2;
         ana_button2 = findViewById(R.id.ana_button2);
             ana_button2.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
@@ -23,5 +26,6 @@ public class hakkimizda extends AppCompatActivity {
                     startActivity(anamenuyedon);
                 }
             });
+
     }
 }
