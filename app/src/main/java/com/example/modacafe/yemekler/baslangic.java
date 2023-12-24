@@ -31,7 +31,7 @@ public class baslangic extends AppCompatActivity {
         setContentView(R.layout.activity_baslangic);
 
 
-        bmenu_button=(Button)findViewById(R.id.bmenu_button);
+        bmenu_button=(Button)findViewById(R.id.bmenu_button2);
         geri2=(Button)findViewById(R.id.geri10);
         corba_imageView = (ImageView)findViewById(R.id.corba_imageView);
         sarma_imageView = (ImageView)findViewById(R.id.sarma_imageView);

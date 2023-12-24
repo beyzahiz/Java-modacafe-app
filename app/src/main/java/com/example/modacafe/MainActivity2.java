@@ -2,10 +2,13 @@ package com.example.modacafe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.modacafe.yemekler.baslangic;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -13,11 +16,12 @@ public class MainActivity2 extends AppCompatActivity {
     Button sicak;
     Button soguk;
     Button yemek;
-    Button tatli;
+    Button tatli_button;
 
     Button geri1;
 
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         sicak = findViewById(R.id.sicak);
         soguk = findViewById(R.id.soguk);
         yemek = findViewById(R.id.yemek);
-        tatli = findViewById(R.id.tatli);
+        tatli_button = findViewById(R.id.tatli_button);
         geri1 = findViewById(R.id.geri10);
 
 
@@ -67,12 +71,11 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        tatli.setOnClickListener(new View.OnClickListener() {
-            @Override
+        tatli_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent tatliyagec = new Intent(MainActivity2.this, tatli.class);
-                startActivity(tatliyagec);
+                Intent intent = new Intent(MainActivity2.this, tatli.class);
                 finish();
+                startActivity(intent);
             }
         });
 

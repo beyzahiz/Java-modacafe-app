@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     Button menu_button;
     Button hakkimizda_button;
     Button mvizyon_button;
-    Button anasayfa_button;
     Button subeler_button;
     Button iletisim_button;
     Button internet_button;

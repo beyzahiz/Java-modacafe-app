@@ -6,6 +6,158 @@
     android:layout_height="match_parent"
     tools:context=".yemekler.salata">
 
+    <ImageView
+        android:id="@+id/sezar_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@drawable/sezar" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:text="Tavuklu Salata"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="170dp"
+        android:layout_height="59dp"
+        android:text="Izgara tavuk bonfile, mısır, domates, salatalık, ballı hardal sos."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="142dp"
+        android:layout_height="24dp"
+        android:text="Akdeniz Salata"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:text="Domates, salatalık, kaşar peyniri, kekik, zeytin, mısır, limon sos ile."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:text="Ton Balıklı Salata"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:text="Ton balığı, domates, salatalık, siyah zeytin, mısır, limon sos ile."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="139dp"
+        android:layout_height="22dp"
+        android:text="Sezar Salata"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="187dp"
+        android:layout_height="72dp"
+        android:text="ızgara tavuk, cherry domates, kruton, sezar sos ve parmesan ile."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <ImageView
+        android:id="@+id/akdeniz_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/akdeniz" />
+
+    <ImageView
+        android:id="@+id/tonbalik_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593"
+        app:srcCompat="@drawable/tonbalik" />
+
+    <ImageView
+        android:id="@+id/tavuklu_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/tavuklu" />
+
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView3"
         android:layout_width="90dp"
@@ -51,7 +203,7 @@
         app:strokeWidth="2dp" />
 
     <Button
-        android:id="@+id/bmenu_button"
+        android:id="@+id/bmenu_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"

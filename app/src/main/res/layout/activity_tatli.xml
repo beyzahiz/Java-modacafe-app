@@ -6,49 +6,204 @@
     android:layout_height="match_parent"
     tools:context=".tatli">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="349dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="44dp"
-        android:background="@color/baslik_moru_arkaplan"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/sunshines"
-        android:gravity="center"
-        android:text="@string/tatlilar"
-        android:textColor="@color/baslik_moru"
-        android:textSize="70sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/ana_button6"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="284dp"
-        android:layout_marginBottom="24dp"
-        android:text="@string/ana_menu"
-        app:strokeColor="@color/black"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="17dp"
         android:backgroundTint="@color/white"
-        app:strokeWidth="2dp"
+        android:text="GERİ"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="1.0" />
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
     <Button
-        android:id="@+id/geri10"
+        android:id="@+id/tmenu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        tools:layout_editor_absoluteX="1dp"
-        android:text="GERİ"
+        android:text="ANA MENÜ"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
         app:strokeColor="@color/black"
-        app:strokeWidth="2dp"
-        tools:layout_editor_absoluteY="666dp" />
+        app:strokeWidth="2dp" />
+
+    <ImageView
+        android:id="@+id/limon_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/limon" />
+
+    <ImageView
+        android:id="@+id/pasta_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/pasta" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="162dp"
+        android:layout_height="19dp"
+        android:text="Limonlu Cheesecake"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
+        android:text="Özel limon sosla kaplanmış cheesecake."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="142dp"
+        android:layout_height="24dp"
+        android:text="Çilekli Pasta"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="159dp"
+        android:layout_height="40dp"
+        android:text="Çilek ve kremalı soslu."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageView
+        android:id="@+id/brovni_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593"
+        app:srcCompat="@drawable/brovni" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="121dp"
+        android:layout_height="21dp"
+        android:text="Browni"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="161dp"
+        android:layout_height="62dp"
+        android:text="Çikolata soslu browni, dondurma ile."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <ImageView
+        android:id="@+id/sufle_imageView"
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@drawable/sufle" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="139dp"
+        android:layout_height="22dp"
+        android:text="Tahinli Sufle"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="187dp"
+        android:layout_height="72dp"
+        android:text="Bol tahin soslu sufle, dondurma ile."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="238dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/sunshines"
+        android:gravity="center"
+        android:text="TATLILAR"
+        android:textColor="@color/baslik_moru"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView3"
