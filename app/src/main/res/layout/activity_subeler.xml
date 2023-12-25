@@ -8,13 +8,13 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="224dp"
-        android:layout_height="66dp"
-        android:text="ŞUBELER"
+        android:layout_width="230dp"
+        android:layout_height="63dp"
         android:fontFamily="@font/sunshines"
+        android:text="SUBELER"
         android:textAlignment="center"
         android:textColor="@color/baslik_moru"
-        android:textSize="40sp"
+        android:textSize="48sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +87,46 @@
         app:srcCompat="@drawable/logo"
 
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="39dp"></com.google.android.material.imageview.ShapeableImageView><![CDATA[
+        tools:layout_editor_absoluteY="39dp"></com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="302dp"
+        android:layout_height="72dp"
+        android:text="Fenerbahçe, Dr. Faruk Ayanoğlu Cd. No:13/C, 34726 Kadıköy/İstanbul"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="302dp"
+        android:layout_height="72dp"
+        android:text="Abbasağa, Dikilitaş, Barbaros Blv. No:15, 34353 Beşiktaş/İstanbul"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="302dp"
+        android:layout_height="72dp"
+        android:text="Asmalı Mescid Mah.İstiklal Cad, Kallavi Sk. no:7, 34430 Beyoğlu/İstanbul"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" /><![CDATA[
 
     />
 ]]>
