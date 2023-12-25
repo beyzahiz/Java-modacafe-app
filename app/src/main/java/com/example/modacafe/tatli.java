@@ -25,7 +25,6 @@ public class tatli extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tatli);
-        setContentView(R.layout.activity_yemek);
 
         tmenu_button=(Button)findViewById(R.id.tmenu_button);
         back=(Button)findViewById(R.id.back);

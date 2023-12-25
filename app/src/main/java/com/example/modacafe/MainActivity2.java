@@ -39,7 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent anamenuyedon = new Intent(MainActivity2.this, MainActivity.class);
                 startActivity(anamenuyedon);
-                finish();
+               finish();
             }
         });
 
@@ -72,10 +72,11 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
         tatli_button.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this, tatli.class);
+                Intent tatliyagec = new Intent(MainActivity2.this, tatli.class);
+                startActivity(tatliyagec);
                 finish();
-                startActivity(intent);
             }
         });
 
